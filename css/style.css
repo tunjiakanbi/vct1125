@@ -22,6 +22,9 @@ html, body, * {
   width: 50%;
   padding: 4em;
   background: red;
+  -webkit-box-shadow: 14px 14px 14px rgba(0, 0, 0, 0.5);
+          box-shadow: 14px 14px 14px rgba(0, 0, 0, 0.5);
+  line-height: 1.5em;
 }
 
 .two {
@@ -34,7 +37,6 @@ html, body, * {
   opacity: .25;
   background-image: url("../images/Dimond_Pattern-01.png");
   background-repeat: repeat;
-  background-size: cover;
-  content: " ";
+  background-size: contain;
 }
 /*# sourceMappingURL=style.css.map */
